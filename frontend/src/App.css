@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf5; /* soft orange-tinted background */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: orange;
+  color: white;
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc7000;
+}
+
+input, select {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer-list {
+  margin-top: 2rem;
+  border-top: 2px solid orange;
+  padding-top: 1rem;
+}
+
+.customer-card {
+  background: #fff;
+  border: 1px solid #ffcc99;
+  border-left: 8px solid orange;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+  border-radius: 6px;
+  text-align: left;
+}
